@@ -5,9 +5,7 @@ import java.util.Arrays;
 public class poker {
 
 	public static void main(String[] args) {
-//		long start = System.currentTimeMillis();
 		int poker [] = new int [52];
-//		String pokerCards [] = new String [52];
 		String playerAA[] = new String [13];String playerBB [] = new String [13];String playerCC [] = new String [13];String playerDD [] = new String [13];
 		int playerA [] = new int [13];int playerB [] = new int [13];int playerC [] = new int [13];int playerD [] = new int [13];
 		int card1 = 0;
@@ -42,7 +40,7 @@ public class poker {
 		}
 	// sort 排序
 		
-		Arrays.sort(playerA);
+		Arrays.sort(playerA); 
 		Arrays.sort(playerB);
 		Arrays.sort(playerC);
 		Arrays.sort(playerD);
