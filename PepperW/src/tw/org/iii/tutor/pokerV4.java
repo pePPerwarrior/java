@@ -1,6 +1,14 @@
 package tw.org.iii.tutor;
 
 import java.util.Arrays;
+/*
+ 		1.做牌
+ 		2.洗牌
+ 		3.發牌
+ 		4.判斷每個人手上的牌是否有重複 分成兩堆
+ 		5.最後輸出每個人的手牌
+  */
+
 
 public class pokerV4 {
 
@@ -116,15 +124,6 @@ public class pokerV4 {
 			System.out.println();
 			System.out.println();
 		}
-				
-
-		
-		
-		
-		
-		
-		
-			
 	
 	}
 
