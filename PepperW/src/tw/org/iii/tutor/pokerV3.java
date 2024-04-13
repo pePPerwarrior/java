@@ -9,18 +9,16 @@ public class pokerV3 {
 		int [] poker  = new int [num];
 		for(int i = 0; i < num; i++) poker[i] = i;
 		
-		for(int i = num - 1; i > 0; i --) {
-			int rand = (int)(Math.random() * (i+1));
-			int temp;
-			temp = poker[rand];
-			poker[rand] = poker[i];
-			poker[i] = temp;
-						
-		}
-		
-//		for(int c: poker) {
-//			System.out.println(c);
+//		for(int i = num - 1; i > 0; i --) {
+//			int rand = (int)(Math.random() * (i+1));
+//			int temp;
+//			temp = poker[rand];
+//			poker[rand] = poker[i];
+//			poker[i] = temp;
+//						
 //		}
+		
+
 		
 		int[][] players = new int [4][13];
 		for(int i = 0; i < num; i++) {
@@ -28,7 +26,7 @@ public class pokerV3 {
 		}
 		
 		String[] suits = {"黑桃","紅心","方塊","梅花"};
-		String[] values = {"A","2","3","4","5","6","7","8","9","10","J","Q","Z"};
+		String[] values = {"A ","2 ","3 ","4 ","5 ","6 ","7 ","8 ","9 ","10","J ","Q ","K "};
 		
 
 		for(int[] player :players) {
@@ -40,7 +38,7 @@ public class pokerV3 {
 		}
 		
 		
-//		for(int c: players[0])System.out.println(c);
+		
 	
 	}
 
